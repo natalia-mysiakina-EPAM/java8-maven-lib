@@ -3,7 +3,7 @@ FROM openjdk:8-jre-slim
 RUN mkdir /app
 WORKDIR /app
 
-ADD target/*.jar /app/
+ADD *.jar /app/
 EXPOSE 8080
 
 RUN echo "#!/bin/sh \n\
