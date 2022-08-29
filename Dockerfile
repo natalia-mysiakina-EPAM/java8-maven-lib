@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-slim
+FROM public.ecr.aws/docker/library/openjdk:8-jre-slim
 
 RUN mkdir /app
 WORKDIR /app
